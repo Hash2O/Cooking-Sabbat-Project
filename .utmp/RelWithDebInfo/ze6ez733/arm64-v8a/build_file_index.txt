@@ -1,0 +1,2 @@
+C:\Users\samue\Documents\Projets Unity\Epitech\Cooking Sabbat\Demo Cooking Sabbat\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\samue\Documents\Projets Unity\Epitech\Cooking Sabbat\Demo Cooking Sabbat\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

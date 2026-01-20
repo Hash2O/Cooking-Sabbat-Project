@@ -1,0 +1,1 @@
+C:\Users\samue\Documents\Projets Unity\Epitech\Cooking Sabbat\Demo Cooking Sabbat\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\ze6ez733\obj\arm64-v8a
