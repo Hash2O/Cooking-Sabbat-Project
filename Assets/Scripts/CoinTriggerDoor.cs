@@ -97,7 +97,7 @@ public class CoinTriggerDoor : MonoBehaviour
                 doorAnimator.SetTrigger(openTriggerName);
 
                 if (AudioManager.audioInstance != null)
-                    AudioManager.audioInstance.PlayTheGoodSound(6);
+                    AudioManager.audioInstance.PlayTheGoodSound(6); // 
             }
         }
     }

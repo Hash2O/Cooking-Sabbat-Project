@@ -234,7 +234,6 @@ public class Cauldron : MonoBehaviour
     {        
         if (Keyboard.current != null && Keyboard.current.enterKey.wasPressedThisFrame)
         {       
-           // StartCoroutine(ChangeLiquidColor(Color.chocolate));
             AddIngredient(ingredientToAdd);
             Debug.Log("Enter pressed");
         }
@@ -273,17 +272,7 @@ public class Cauldron : MonoBehaviour
             if (successParticles != null)
                 successParticles.Play();
 
-            //if (successSound != null)
-            //    successSound.Play();
-
             if (AudioManager.audioInstance != null) AudioManager.audioInstance.PlayNotificationSound(3);    // Success Notification
-
-            // NB : si l'option création directe de l'objet, décommenter cette partie (utile pour les tests rapides)
-            // Création du résultat
-            //if (currentRecipe.resultPrefab != null)
-            //{
-            //    Instantiate(currentRecipe.resultPrefab, transform.position + Vector3.up * 0.5f, Quaternion.identity);
-            //}
         }
 
         // Ajout automatique si nouvelle recette découverte
@@ -348,14 +337,14 @@ public class Cauldron : MonoBehaviour
             StartCoroutine(nameof(ResetCauldronVFX), 1f);
         }
 
-        // 1️⃣ Ingrédients et recette
+        // Ingrédients et recette
         addedIngredients.Clear();
         currentRecipe = null;
         recipeCompleted = false;
         canStir = false;
         maxIngredients = 3;
 
-        // 2️⃣ UI
+        // UI
         foreach (var slot in ingredientSlots)
         {
             if (slot != null)
@@ -366,7 +355,7 @@ public class Cauldron : MonoBehaviour
         }
         UpdateRecipeUI(null);
 
-        // 3️⃣ Liquide
+        // Liquide
         if (liquidRenderer != null)
         {
             StopAllCoroutines();
@@ -390,11 +379,11 @@ public class Cauldron : MonoBehaviour
             colorOverLifetime.color = new ParticleSystem.MinMaxGradient(gradient);
         }
 
-        // 4️⃣ Particules / sons
+        // Particules / sons
         if (successParticles != null) successParticles.Stop();
         if (successSound != null && successSound.isPlaying) successSound.Stop();
 
-        // 5️⃣ StirringManager
+        // StirringManager
         if (stirringManager != null)
         {
             stirringManager.ResetStirringValues();
@@ -404,7 +393,7 @@ public class Cauldron : MonoBehaviour
         if (resetSound != null)
             resetSound.Play();
 
-        // 6️⃣ Feedbacks visuels ingrédients
+        // Feedbacks visuels ingrédients
         foreach (var feedback in activeIngredientFeedbacks)
         {
             if (feedback != null)
