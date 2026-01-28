@@ -1,19 +1,19 @@
 # ninja log v5
-62	2802	7902165518927446	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d9abf33c0875925
-158	3290	7902165523795298	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	74fedcbe1caff779
-40	2845	7902165519341032	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	e062c4ed320f35c7
-99	2876	7902165519697068	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f0d1ddb6b9fe5843
-3663	3930	7902165530165087	C:/Users/samue/Documents/Projets Unity/Epitech/Cooking Sabbat/Demo Cooking Sabbat/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/ze6ez733/obj/arm64-v8a/libgame.so	b02241d8889ba016
-190	3045	7902165521352840	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	c2b72c1203a20e6b
-1	2981	7902165520680574	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	adc48655b7d18280
-128	3513	7902165526045899	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	da2877ba61c0af2b
-21	3663	7902165527511508	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	9424a3755cee2484
-59	1259	7904346507507872	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f0d1ddb6b9fe5843
-44	1283	7904346507752603	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	e062c4ed320f35c7
 94	1302	7904346507958413	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d9abf33c0875925
+44	1283	7904346507752603	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	e062c4ed320f35c7
+134	1493	7904346509863619	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	74fedcbe1caff779
+59	1259	7904346507507872	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f0d1ddb6b9fe5843
 7	1343	7904346508354871	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	adc48655b7d18280
 114	1345	7904346508354871	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	c2b72c1203a20e6b
-134	1493	7904346509863619	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	74fedcbe1caff779
+1703	1836	7904346513291627	C:/Users/samue/Documents/Projets Unity/Epitech/Cooking Sabbat/Demo Cooking Sabbat/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/ze6ez733/obj/arm64-v8a/libgame.so	b02241d8889ba016
 77	1596	7904346510879719	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	da2877ba61c0af2b
 28	1703	7904346511956256	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	9424a3755cee2484
-1703	1836	7904346513291627	C:/Users/samue/Documents/Projets Unity/Epitech/Cooking Sabbat/Demo Cooking Sabbat/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/ze6ez733/obj/arm64-v8a/libgame.so	b02241d8889ba016
+11	1461	7912098512425599	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f0d1ddb6b9fe5843
+51	1483	7912098512628681	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	e062c4ed320f35c7
+273	1495	7912098512774087	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d9abf33c0875925
+245	1502	7912098512809341	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	c2b72c1203a20e6b
+228	1583	7912098513638649	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	adc48655b7d18280
+286	1744	7912098515156667	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	74fedcbe1caff779
+259	1804	7912098515844773	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	da2877ba61c0af2b
+33	1947	7912098517186008	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	9424a3755cee2484
+1948	2096	7912098518749436	C:/Users/samue/Documents/Projets Unity/Epitech/Cooking Sabbat/Demo Cooking Sabbat/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/ze6ez733/obj/arm64-v8a/libgame.so	b02241d8889ba016

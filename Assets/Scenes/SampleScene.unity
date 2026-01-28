@@ -199,6 +199,143 @@ MonoBehaviour:
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
   m_UseGravity: 1
+--- !u!1 &8430871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8430872}
+  - component: {fileID: 8430874}
+  - component: {fileID: 8430873}
+  m_Layer: 0
+  m_Name: Vermin Steak Principles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8430872
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8430871}
+  m_LocalRotation: {x: -0, y: -0.00000005960463, z: -0.000000029802315, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.1, y: 0.10000001, z: 0.10000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1272448086}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.63, y: -1.85}
+  m_SizeDelta: {x: 70, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8430873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8430871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '        +        = '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2c331721f5d8f4557931a8cd6d2082c2, type: 2}
+  m_sharedMaterial: {fileID: 21439481095386310, guid: 2c331721f5d8f4557931a8cd6d2082c2, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 10
+  m_fontSizeBase: 10
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &8430874
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8430871}
+  m_CullTransparentMesh: 1
 --- !u!114 &45576228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,6 +818,81 @@ MonoBehaviour:
   - groupMember: {fileID: 309746214}
     overrideGroupMembers:
     - {fileID: 2697122589421380510}
+--- !u!1 &200354369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 200354370}
+  - component: {fileID: 200354372}
+  - component: {fileID: 200354371}
+  m_Layer: 0
+  m_Name: Rat Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &200354370
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200354369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.02, y: 0.01, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1272448086}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3.29, y: -2.02}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &200354371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200354369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f4893ced4bd97fa40a539c6d106de7b4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &200354372
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200354369}
+  m_CullTransparentMesh: 1
 --- !u!1 &203844586
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +1020,93 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &210189120
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.772
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.096
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_Name
+      value: Green Potion Recipe Parchment
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490758092646278674, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490758092646278674, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: d6a10f711a0bdf1469022af55ef85800, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 210189122}
+  m_SourcePrefab: {fileID: 100100000, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+--- !u!1 &210189121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+  m_PrefabInstance: {fileID: 210189120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &210189122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210189121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227326027b33f0045a8d90f9643497f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecipePickup
+  recipe: {fileID: 11400000, guid: 2e2eb58f50d7c0345b98e92635ec3bf9, type: 2}
+  dissolveDuration: 1.5
 --- !u!1 &234295662
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,8 +1213,8 @@ Transform:
   m_GameObject: {fileID: 234295662}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9938782, y: 0.39427274, z: 2.0258245}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.9938782, y: 0.39427274, z: 1.511}
+  m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1991069349}
@@ -1179,6 +1478,93 @@ Transform:
   m_Children: []
   m_Father: {fileID: 348735288}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &286425891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.772
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.984
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_Name
+      value: Brown Potion Recipe Parchment
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490758092646278674, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490758092646278674, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: d6a10f711a0bdf1469022af55ef85800, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 286425893}
+  m_SourcePrefab: {fileID: 100100000, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+--- !u!1 &286425892 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+  m_PrefabInstance: {fileID: 286425891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &286425893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286425892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227326027b33f0045a8d90f9643497f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecipePickup
+  recipe: {fileID: 11400000, guid: 37e7bc3461b78db46b39db3e90861a1b, type: 2}
+  dissolveDuration: 1.5
 --- !u!1001 &293493922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1518,6 +1904,19 @@ Transform:
   - {fileID: 481408396}
   m_Father: {fileID: 1991069349}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!114 &443329847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272448080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a00196a03991634cb9bdcbee2ee6e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrimoireRecipePage
+  recipe: {fileID: 11400000, guid: 3bf6f3a0025b6b547a5bb0e7d1a328e2, type: 2}
 --- !u!1001 &481408395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2335,6 +2734,19 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78d7ff1521a188b46ae4de09b67dfbba, type: 3}
+--- !u!114 &687565623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272448083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a00196a03991634cb9bdcbee2ee6e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrimoireRecipePage
+  recipe: {fileID: 11400000, guid: 30365140168a04f4e9b5c805be9de8c8, type: 2}
 --- !u!1 &698503984
 GameObject:
   m_ObjectHideFlags: 0
@@ -2609,6 +3021,45 @@ MonoBehaviour:
     m_ManualQueueWasCompletedThisFrame: 0
     m_ManualQueueValue: 0
     m_ManualQueueTargetFrame: 0
+--- !u!114 &829209744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272448079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a00196a03991634cb9bdcbee2ee6e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrimoireRecipePage
+  recipe: {fileID: 11400000, guid: 8fbe1e8955f039547bf736896d57439d, type: 2}
+--- !u!114 &885071618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272448081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a00196a03991634cb9bdcbee2ee6e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrimoireRecipePage
+  recipe: {fileID: 11400000, guid: 5334f9946b9499a47b29b97bfa32bfef, type: 2}
+--- !u!114 &912296109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272448078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a00196a03991634cb9bdcbee2ee6e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrimoireRecipePage
+  recipe: {fileID: 11400000, guid: 60cafed22d032864096b845f601204cc, type: 2}
 --- !u!1 &912646074
 GameObject:
   m_ObjectHideFlags: 0
@@ -3050,7 +3501,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &968021825
 Transform:
   m_ObjectHideFlags: 0
@@ -3137,6 +3588,147 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8270855663187062767, guid: 1392f805216c47742996d4742c80721c, type: 3}
   m_PrefabInstance: {fileID: 1010444518}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1037496989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037496991}
+  - component: {fileID: 1037496990}
+  m_Layer: 0
+  m_Name: Recipe Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1037496990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037496989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b786b89b0fa88246830565ae9ac6b28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeManager
+  allRecipes:
+  - {fileID: 11400000, guid: 3bf6f3a0025b6b547a5bb0e7d1a328e2, type: 2}
+  - {fileID: 11400000, guid: 30365140168a04f4e9b5c805be9de8c8, type: 2}
+  - {fileID: 11400000, guid: 37e7bc3461b78db46b39db3e90861a1b, type: 2}
+  - {fileID: 11400000, guid: 8fbe1e8955f039547bf736896d57439d, type: 2}
+  - {fileID: 11400000, guid: 2e2eb58f50d7c0345b98e92635ec3bf9, type: 2}
+  - {fileID: 11400000, guid: 5334f9946b9499a47b29b97bfa32bfef, type: 2}
+  - {fileID: 11400000, guid: 34f9f23a99e9ae54b9d3c18bd7bcaec7, type: 2}
+  - {fileID: 11400000, guid: 60cafed22d032864096b845f601204cc, type: 2}
+  discoveredRecipes: []
+--- !u!4 &1037496991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037496989}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1126968232
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.772
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.871
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_Name
+      value: Blue Potion Recipe Parchment
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490758092646278674, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490758092646278674, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: d6a10f711a0bdf1469022af55ef85800, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1126968234}
+  m_SourcePrefab: {fileID: 100100000, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+--- !u!1 &1126968233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+  m_PrefabInstance: {fileID: 1126968232}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1126968234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126968233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227326027b33f0045a8d90f9643497f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecipePickup
+  recipe: {fileID: 11400000, guid: 37e7bc3461b78db46b39db3e90861a1b, type: 2}
+  dissolveDuration: 1.5
 --- !u!114 &1131419722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3318,6 +3910,489 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232762657}
   m_CullTransparentMesh: 1
+--- !u!1001 &1272448076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 323737694796899, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Orange Potion Image (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 45072046826481628, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Brown Potion Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 129724829336390231, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_text
+      value: "Pour obtenir un steak de rat, prenez un rat enrag\xE9, mettez le sur
+        la table et attendrissez le avec le maillet. A servir entier ou d\xE9coup\xE9,
+        selon vos envies !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 285378399511383008, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Dark Potion Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 297672462561166296, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Purple Potion Text (TMP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325326076677111880, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5803922
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325326076677111880, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325326076677111880, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7490196
+      objectReference: {fileID: 0}
+    - target: {fileID: 1340090271713521396, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Purple Potion Recipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 2703477331844086013, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2711379791037962896, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Purple Potion Image (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2853471438367476846, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Purple Potion Potion Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 2900470449016841601, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Orange Potion Recipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 3404522546257056063, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: de317dfa1df678149afabe349d320385, type: 3}
+    - target: {fileID: 3439346406334611277, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3457700970576536143, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 93f6c6d15e7020341af2ebfc11859675, type: 3}
+    - target: {fileID: 3461284854595365165, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Pink Recipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 3461284854595365165, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3535348275543357694, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 196c09401e9051c49828ac6c7fe0ffb7, type: 3}
+    - target: {fileID: 3599777720926215639, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599777720926215639, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878283742479322009, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Brown Potion Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919598817834716044, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Brown Recipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177764633777544608, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Orange Potion Image (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4199903378494549995, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Purple Potion Image (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413512596108217615, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Orange Potion Text (TMP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4602140387160988063, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Purple Potion Image (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067586018324127301, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Vermin Steak Recipe Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067626410638845635, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Vermin Steak Recipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 5067626410638845635, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377693168689300276, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377693168689300276, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5391383200264662660, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Orange Potion Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 5789364165964408837, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954363843370284409, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ca7097c92bf1afd44be0625c2dadee97, type: 3}
+    - target: {fileID: 5975162363575581682, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Orange Potion Title
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028680794223945922, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Blue Recipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028680794223945922, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.074999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.074999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.074999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.847
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0522001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.67212
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.21966967
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.67212
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.21966967
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -36.198
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6062946696066892940, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6085607784023519005, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114560593637377730, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Purple Potion Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 6547866519201631860, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_text
+      value: ~ Potion Orange ~
+      objectReference: {fileID: 0}
+    - target: {fileID: 6634169884446993663, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Green Recipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874807817774194230, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Test_Magical_Recipe_Book
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874807817774194230, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_TagString
+      value: RecipeBook
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988684896835118697, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Dark Potion Text (TMP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7036134535367970761, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 455bcf144c2cbc64aaf368fa98d024c1, type: 3}
+    - target: {fileID: 7204463463648716404, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7206303901206645047, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7ff723bf84c7ece4b970dc05d4af86fd, type: 3}
+    - target: {fileID: 7229784609207651386, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Blood Red Potion Recipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378603987182166560, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_fontSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378603987182166560, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634982267981037623, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 7952414383984523985, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026387448153371987, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ae208cec6e605ba4f8d3ee83215865a0, type: 2}
+    - target: {fileID: 8187390207440133442, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_text
+      value: ~ Steak de rat ~
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187390207440133442, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237589347095199580, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_text
+      value: 'Steak de Rat
+
+        Oeil de cyclope
+
+        Poison'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8288731894135530235, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Purple Potion Image (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8295322713227629454, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Orange Potion Image (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8471583897866757261, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Dark Potion Recipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509127920876023393, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_text
+      value: 'Champignon
+
+        Os
+
+        Ichor
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516705178298054837, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516705178298054837, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516705178298054837, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516705178298054837, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598063962868877896, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62307226ea02d51408ead85fc082db1f, type: 3}
+    - target: {fileID: 8892713516557679393, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Brown Potion Text (TMP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027322876989087098, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      propertyPath: m_Name
+      value: Dark Potion Title
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 6260335763513931631, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+    - {fileID: 7222031973785835925, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+    - {fileID: 4602140387160988063, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3314319936923954916, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 8430872}
+    - targetCorrespondingSourceObject: {fileID: 3314319936923954916, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 200354370}
+    - targetCorrespondingSourceObject: {fileID: 3314319936923954916, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1352873995}
+    - targetCorrespondingSourceObject: {fileID: 3314319936923954916, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1544840238}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6874807817774194230, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2135596071}
+    - targetCorrespondingSourceObject: {fileID: 6874807817774194230, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2135596070}
+    - targetCorrespondingSourceObject: {fileID: 7229784609207651386, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 443329847}
+    - targetCorrespondingSourceObject: {fileID: 8471583897866757261, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 829209744}
+    - targetCorrespondingSourceObject: {fileID: 2900470449016841601, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 885071618}
+    - targetCorrespondingSourceObject: {fileID: 1340090271713521396, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 912296109}
+    - targetCorrespondingSourceObject: {fileID: 3461284854595365165, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1272448089}
+    - targetCorrespondingSourceObject: {fileID: 6028680794223945922, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 687565623}
+    - targetCorrespondingSourceObject: {fileID: 6634169884446993663, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1272448088}
+    - targetCorrespondingSourceObject: {fileID: 3919598817834716044, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1272448087}
+  m_SourcePrefab: {fileID: 100100000, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+--- !u!1 &1272448077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6874807817774194230, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+  m_PrefabInstance: {fileID: 1272448076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1272448078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1340090271713521396, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+  m_PrefabInstance: {fileID: 1272448076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1272448079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8471583897866757261, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+  m_PrefabInstance: {fileID: 1272448076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1272448080 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7229784609207651386, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+  m_PrefabInstance: {fileID: 1272448076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1272448081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2900470449016841601, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+  m_PrefabInstance: {fileID: 1272448076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1272448082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3919598817834716044, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+  m_PrefabInstance: {fileID: 1272448076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1272448083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6028680794223945922, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+  m_PrefabInstance: {fileID: 1272448076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1272448084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3461284854595365165, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+  m_PrefabInstance: {fileID: 1272448076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1272448085 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6634169884446993663, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+  m_PrefabInstance: {fileID: 1272448076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1272448086 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3314319936923954916, guid: 235b1404a62700c49a8b856a88b67235, type: 3}
+  m_PrefabInstance: {fileID: 1272448076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1272448087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272448082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a00196a03991634cb9bdcbee2ee6e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrimoireRecipePage
+  recipe: {fileID: 11400000, guid: 37e7bc3461b78db46b39db3e90861a1b, type: 2}
+--- !u!114 &1272448088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272448085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a00196a03991634cb9bdcbee2ee6e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrimoireRecipePage
+  recipe: {fileID: 11400000, guid: 2e2eb58f50d7c0345b98e92635ec3bf9, type: 2}
+--- !u!114 &1272448089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272448084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a00196a03991634cb9bdcbee2ee6e98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrimoireRecipePage
+  recipe: {fileID: 11400000, guid: 34f9f23a99e9ae54b9d3c18bd7bcaec7, type: 2}
 --- !u!1 &1286307244
 GameObject:
   m_ObjectHideFlags: 0
@@ -3896,6 +4971,81 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 65
   m_PhysicsTriggerInteraction: 1
+--- !u!1 &1352873994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352873995}
+  - component: {fileID: 1352873997}
+  - component: {fileID: 1352873996}
+  m_Layer: 0
+  m_Name: WoodenBat Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1352873995
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352873994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.02, y: 0.01, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1272448086}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.54, y: -2.02}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1352873996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352873994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 753b13059f3dcd344823d8f3f8571992, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1352873997
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352873994}
+  m_CullTransparentMesh: 1
 --- !u!114 &1364183645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4306,6 +5456,168 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 77f9d099e878dad4eb3f9de1fedf0e47, type: 3}
   m_PrefabInstance: {fileID: 1491138893}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1544840237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1544840238}
+  - component: {fileID: 1544840240}
+  - component: {fileID: 1544840239}
+  m_Layer: 0
+  m_Name: Rat Steak Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1544840238
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544840237}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.02, y: 0.01, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1272448086}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2.26, y: -2.02}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1544840239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544840237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 455bcf144c2cbc64aaf368fa98d024c1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1544840240
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544840237}
+  m_CullTransparentMesh: 1
+--- !u!1001 &1564858685
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.096
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_Name
+      value: Blood Red Potion Recipe Parchment
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490758092646278674, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490758092646278674, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: d6a10f711a0bdf1469022af55ef85800, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1564858687}
+  m_SourcePrefab: {fileID: 100100000, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+--- !u!1 &1564858686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+  m_PrefabInstance: {fileID: 1564858685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1564858687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564858686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227326027b33f0045a8d90f9643497f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecipePickup
+  recipe: {fileID: 11400000, guid: 3bf6f3a0025b6b547a5bb0e7d1a328e2, type: 2}
+  dissolveDuration: 1.5
 --- !u!1001 &1598793427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6165,6 +7477,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActionId: 39bbf1ac-21a3-413d-90f6-6dbf6efeaabe
+--- !u!114 &2135596070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272448077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbe73403059667a47b71b8e61d035f7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Grimoire
+  recipePages:
+  - {fileID: 1272448089}
+  - {fileID: 687565623}
+  - {fileID: 1272448088}
+  - {fileID: 1272448087}
+  - {fileID: 443329847}
+  - {fileID: 829209744}
+  - {fileID: 885071618}
+  - {fileID: 912296109}
+--- !u!65 &2135596071
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272448077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.73653, y: 0.78429425, z: 5.9442263}
+  m_Center: {x: 0.04737536, y: 0.17773959, z: -0.029160377}
 --- !u!137 &643796575083256101
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -6786,15 +8140,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.675859
+      value: 0.772
       objectReference: {fileID: 0}
     - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.961
+      value: 1.015
       objectReference: {fileID: 0}
     - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.7969369
+      value: -1.199
       objectReference: {fileID: 0}
     - target: {fileID: 7322316035110706557, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6826,13 +8180,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
       propertyPath: m_Name
-      value: Recipe Parchment
+      value: Pink Potion Recipe Parchment
       objectReference: {fileID: 0}
+    - target: {fileID: 8490758092646278674, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8490758092646278674, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: d6a10f711a0bdf1469022af55ef85800, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4268014861283477687}
   m_SourcePrefab: {fileID: 100100000, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+--- !u!1 &4268014861283477686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7986508385331431367, guid: 9851e369327ae0841a68458b547aa7e8, type: 3}
+  m_PrefabInstance: {fileID: 4268014861283477685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4268014861283477687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4268014861283477686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227326027b33f0045a8d90f9643497f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecipePickup
+  recipe: {fileID: 11400000, guid: 34f9f23a99e9ae54b9d3c18bd7bcaec7, type: 2}
+  dissolveDuration: 1.5
 --- !u!1 &4441188071859349143
 GameObject:
   m_ObjectHideFlags: 0
@@ -7101,7 +8485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 798115899988881537, guid: c06625d58f1dee14abe2315fc54c95f6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9686375
+      value: 1.145
       objectReference: {fileID: 0}
     - target: {fileID: 798115899988881537, guid: c06625d58f1dee14abe2315fc54c95f6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7109,7 +8493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 798115899988881537, guid: c06625d58f1dee14abe2315fc54c95f6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.85991967
+      value: -0.63
       objectReference: {fileID: 0}
     - target: {fileID: 798115899988881537, guid: c06625d58f1dee14abe2315fc54c95f6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7461,3 +8845,9 @@ SceneRoots:
   - {fileID: 968021825}
   - {fileID: 6951282698588724265}
   - {fileID: 4268014861283477685}
+  - {fileID: 210189120}
+  - {fileID: 1564858685}
+  - {fileID: 286425891}
+  - {fileID: 1126968232}
+  - {fileID: 1272448076}
+  - {fileID: 1037496991}

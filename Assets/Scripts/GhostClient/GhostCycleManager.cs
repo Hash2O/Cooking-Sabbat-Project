@@ -11,7 +11,8 @@ public class GhostCycleManager : MonoBehaviour
     public Transform ghostExitPoint;
 
     [Header("Gestion des fantômes")]
-    public List<GameObject> ghostPrefabs;
+    //public List<GameObject> ghostPrefabs;
+    private List<GameObject> availableGhosts = new();
     private GhostClient activeGhost;
 
     [Header("Récompenses")]
@@ -78,11 +79,27 @@ public class GhostCycleManager : MonoBehaviour
 
     private IEnumerator SpawnGhost()
     {
+        //isSpawning = true;
+        //yield return new WaitForSeconds(spawnDelay);
+
+        //// Spawn du fantôme
+        //GameObject prefab = ghostPrefabs[Random.Range(0, ghostPrefabs.Count)];
+        //GameObject ghostObj = Instantiate(prefab, ghostSpawnPoint.position, Quaternion.identity);
+        //activeGhost = ghostObj.GetComponent<GhostClient>();
+
         isSpawning = true;
         yield return new WaitForSeconds(spawnDelay);
 
-        // Spawn du fantôme
-        GameObject prefab = ghostPrefabs[Random.Range(0, ghostPrefabs.Count)];
+        availableGhosts = RecipeManager.Instance.GetKnownGhostPrefabs();
+
+        if (availableGhosts.Count == 0)
+        {
+            Debug.LogWarning("Aucun fantôme disponible !");
+            isSpawning = false;
+            yield break;
+        }
+
+        GameObject prefab = availableGhosts[Random.Range(0, availableGhosts.Count)];
         GameObject ghostObj = Instantiate(prefab, ghostSpawnPoint.position, Quaternion.identity);
         activeGhost = ghostObj.GetComponent<GhostClient>();
 

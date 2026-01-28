@@ -15,9 +15,11 @@ MonoBehaviour:
   recipeName: Potion Brune
   description: 
   icon: {fileID: 21300000, guid: 6917f0c489addcb4eb8968e7a09359cb, type: 3}
+  potionColor: {r: 0.4716981, g: 0.26599854, b: 0.07564971, a: 0.6862745}
+  bottlePrefab: {fileID: 3660984119618516505, guid: 60bca27091de3b944a0d7c9c80ff9206, type: 3}
   requiredIngredients:
   - {fileID: 11400000, guid: 7eec49634d5f26d49ab44b9b9ebd1a49, type: 2}
   - {fileID: 11400000, guid: 475fd53722be2ee459e46a1ae9c4aedc, type: 2}
   - {fileID: 11400000, guid: 017064dd6d929794da473224ceab5408, type: 2}
-  potionColor: {r: 0.4716981, g: 0.26599854, b: 0.07564971, a: 0.6862745}
-  bottlePrefab: {fileID: 3660984119618516505, guid: 60bca27091de3b944a0d7c9c80ff9206, type: 3}
+  ghostPrefab: {fileID: 2315974465149695507, guid: 9971b731fe64e0144a1288057a9a32e3, type: 3}
+  isKnownAtStart: 0
